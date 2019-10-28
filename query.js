@@ -26,4 +26,4 @@ function aggegate(collection) {
 }
 
 
-exports.query = aggegate
+exports.query = findOne //select function to execute

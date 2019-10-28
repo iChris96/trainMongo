@@ -1,4 +1,4 @@
-const test = require('./Notes/test.js')
+//const test = require('./Notes/test.js')
 const mongo = require('./mongo.js')
 
-mongo.findOne
+mongo.conexion

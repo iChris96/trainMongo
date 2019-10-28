@@ -2,7 +2,7 @@ const mongo = require('mongodb').MongoClient
 const url = 'mongodb://localhost:27017'
 const querys = require('./query.js')
 
-const findOne = mongo.connect(url, {
+const conexion = mongo.connect(url, {
         useNewUrlParser: true,
         useUnifiedTopology: true
     }, (err, client) => {
@@ -18,4 +18,4 @@ const findOne = mongo.connect(url, {
         client.close();
     })
 
-exports.findOne = findOne
+exports.conexion = conexion
